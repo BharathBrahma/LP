@@ -29,14 +29,18 @@
 
 ## BIAS FOR ACTION
 - ### You made a calculated risk where speed was crucial
+  - Gateway and Eureka tuning
 - ### You made an important decision without consulting your manager
   - Managing team resources for compares, prod support
 - ### You were able to remove serious roadblocks to prevent progress.
+ - Cipher jar creation, Pipeline creation amd modification
 
 ## INVENT AND SIMPLIFY
 - ### The most innovative thing you've done and why it's innovative
+  - Cipher jar creation, Configurable rule engine for compares, Error Repository solution, Hold Release solution
 - ### When you solved a complex problem with a simple solution
 - ### A creative idea you had that ended up being difficult to implement
+  - IO Key mutable implementation
 
 ## OWNERSHIP
 - ### You took on something significant outside your responsibility
