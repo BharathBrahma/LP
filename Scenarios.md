@@ -116,3 +116,27 @@ Upon intercepting these requests, Spring Cloud Gateway's integration with Spring
 **Result:** The implemented solution successfully alleviated the strain on database servers serving online billing requests, resulting in improved response times and enhanced system performance overall. By dynamically routing traffic to designated instances based on specific criteria, we effectively managed load imbalance without disrupting other critical functions or requiring code changes in the production environment.
 
 **Learning:** This experience highlighted the importance of leveraging advanced routing capabilities offered by Spring Cloud Gateway in conjunction with Spring Eureka for dynamic service discovery and load balancing. By strategically configuring Gateway to intercept and route requests based on specific criteria, we were able to achieve targeted traffic management and optimize resource allocation, ultimately ensuring the system's resilience and responsiveness in the face of fluctuating workloads. Moving forward, I will continue to explore and leverage the full capabilities of Spring Cloud Gateway and Spring Eureka to enhance system performance and scalability while maintaining flexibility and configurability.
+
+## Corrupt jar :
+
+**Situation:** Upon joining a new team in Pittsburgh, I encountered a high-stakes situation just three days into my role as a Lead Software Developer. The team was responsible for deploying a critical application essential for revenue generation, particularly during peak periods like Valentine's Day. However, the deployment process hit a roadblock as the application failed to start after deployment.
+
+**Task:** Recognizing the urgency of the situation and the potential revenue implications of a failed deployment, the immediate task was to delve deep into the root cause of the issue and resolve it swiftly to enable the necessary price changes for Valentine's Day.
+
+**Action:** Despite being new to the team and lacking access to crucial resources like the Git repository, I took initiative by collaborating closely with a developer to gain insights into the codebase and deployment process. Despite the limited time frame – it was a Friday afternoon deployment – I embarked on a rigorous investigative process:
+
+1. **Understanding Jar Integrity:** Recognizing that a corrupt JAR file could be the culprit, I first familiarized myself with the structure and integrity of JAR files, including their compression format and checksum verification mechanisms.
+
+2. **Analyzing Deployment Logs:** I meticulously scrutinized the deployment logs, examining each step of the deployment process to identify any anomalies or error messages that could indicate issues with JAR file extraction or initialization.
+
+3. **Checksum Verification:** To ensure the integrity of the deployed JAR files, I performed checksum verification checks on each JAR file involved in the deployment process. By comparing the calculated checksums against expected values, I could detect any discrepancies that might indicate corruption.
+
+4. **Dependency Tree Examination:** Leveraging tools like Maven or Gradle, I analyzed the dependency tree of the application to trace the origin of each JAR file and identify potential points of failure or corruption.
+
+5. **Debugging Deployment Pipeline:** Collaborating with the DevOps team, I debugged the deployment pipeline to trace the path of the JAR files from source control to production environment, identifying any potential sources of corruption or data loss along the way.
+
+6. **Runtime Error Analysis:** By examining runtime error logs and stack traces, I pinpointed specific code paths or dependencies within the application that were triggering errors or exceptions, potentially indicating corruption or compatibility issues with the deployed JAR files.
+
+**Result:** Through intensive analysis and collaboration with the team, I successfully identified a corrupt JAR file as the root cause of the deployment failure. By following a systematic approach and leveraging various tools and techniques, we were able to isolate the issue and implement a solution swiftly, ensuring that the company met its timeline for implementing crucial price changes for Valentine's Day.
+
+**Learning:** This experience underscored the importance of a comprehensive understanding of deployment processes and JAR file integrity mechanisms in diagnosing complex technical issues. By employing a methodical approach and leveraging a diverse array of tools and techniques, I was able to navigate the intricacies of the investigation process and deliver a timely solution, ultimately contributing to the success of the project and enhancing my problem-solving capabilities.

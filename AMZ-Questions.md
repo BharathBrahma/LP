@@ -39,32 +39,46 @@
 - ### The most innovative thing you've done and why it's innovative
   - Cipher jar creation, Configurable rule engine for compares, Error Repository solution, Hold Release solution
 - ### When you solved a complex problem with a simple solution
+  - Eureka tuning
 - ### A creative idea you had that ended up being difficult to implement
   - IO Key mutable implementation
 
 ## OWNERSHIP
 - ### You took on something significant outside your responsibility
+  - Android development
 - ### You made a decision to sacrifice short term gain for long term goals.
+  - Weblogic upgrades
 - ### You saw a peer struggling and decoded to step in and help
+  - Ephemeral adoption
 
 ## DIVE DEEP
 - ### You were trying to understand a problem on your team and had go down several levels to figure it out
+  - RTQT performance issues, RDOM 
 - ### You linked two or more problems together and identified underlying issues.
 - ### Specific metric you used to identify a need for change in your dept.
+  - Technical debt : For now, 
 
 ## LEARN AND BE CURIOUS
 - ### You realized you needed to have a deeper level of subject matter expertise to do your job well
 - ### You took on work outside of your comfort zone and found it rewarding
+  - Ephemeral adoption, Android development
 - ### You didn't know what to do next or how to solve a challenging problem
 
 ## DISAGREE AND COMMIT
 - ### You strongly disagreed with your manager
+  - Technical Debt, Weblogic upgrades, 
 - ### You took an unpopular stance in a meeting with peers/leaders
+  - Weblogic upgrades
 - ### You decided to go along with the group decision even if you disagreed
+  - 
 - ### You submitted a good idea to your manager and they didn't take action
+  Resource crunch and imbalance
 - ### You strongly disagreed with your manager on something you felt was very important to the business
+  - Technical Debt
 
 ## EARN TRUST
 - ### You significantly contributed to improving morale and product in your team.
+ - Enablement of team members
 - ### 3 things your working on to improve overall effectiveness
+  - Practising gratitude, empathy and spend x hours on upgrading your skills
 - ### You received tough or critical feedback
