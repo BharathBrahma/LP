@@ -17,15 +17,20 @@
 - ### You were driving toward a goal, and realized more then halfway in that it may not be the best goal
 - ### A goal you set that took a long time to achieve/are still working towards
 - ### You delivered a project under a tight deadline
+  - Cipher jar,
 
 ## DELIVER RESULTS
 - ### You made a difficult decision and how you knew it was the right decision.
+  - CRSV Mapping
 - ### You made a decision with all the data
+  - CRSV Mappping, RDOM Committee
 - ### You made a bad decision and how you learned from it.
+  - JSON Object storage
 
 ## BIAS FOR ACTION
 - ### You made a calculated risk where speed was crucial
 - ### You made an important decision without consulting your manager
+  - Managing team resources for compares, prod support
 - ### You were able to remove serious roadblocks to prevent progress.
 
 ## INVENT AND SIMPLIFY
