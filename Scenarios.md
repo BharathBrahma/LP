@@ -1,4 +1,4 @@
-## Weblogic Upgrades :  
+## Weblogic Upgrades  
  
 ### **Describe a situation where you thought you were right, but your peers or supervisor didn’t agree with you. How did you convince them you were right? How did you react? What was the outcome?**
 
@@ -23,7 +23,7 @@ According to industry reports, transitioning from traditional application server
 **Result:** Ultimately, the customer agreed to consider the alternative solution and allowed us to pilot the transition on one of their applications. The successful implementation of the new architecture not only addressed their immediate needs but also provided them with a more flexible and future-proof solution. The customer was pleased with the outcome and recognized the value of our proactive approach in meeting their needs effectively.
 
 
-## For Now Lets Do This :
+## For Now Lets Do This
  
 ###  **Disagreement with Manager/Tell me about a time you took an unpopular stance with your peer/management**
 You were unsatisfied by the status quo. How would you change it**
@@ -38,12 +38,12 @@ You were unsatisfied by the status quo. How would you change it**
 
 I have always followed the principle of finish strong which means ensuring correctness by what is needed.
 
-**Situations to quote :** 
+**Situations to quote** 
 - PGA Sync mechanism fail, so manually sync 
 - The config server authentication wasn't working with the ssh key, the developer in my absence started the app with his credentials with my managers approvals of "for now" scenario. Then the next thing you know is the contractor is out of the team, and the password expired, we are left with a prod incident in config server.
 
 
-## Compare tool :
+## Compare tool
  
 #### ``Tell me about a time where you used your customer feedback to drive improvement``
 
@@ -67,7 +67,7 @@ I have always followed the principle of finish strong which means ensuring corre
 **Result:** Despite the challenges, your team worked tirelessly to meet the customer's demands and deliver a solution that addressed their most critical requirements within the limited timeframe. This experience demonstrates your ability to manage difficult customer interactions and prioritize effectively to meet project objectives.
 
 
-## Performance improvements :
+## Performance improvements
  
 ###  **How do you seek out feedback on performance**
 
@@ -89,7 +89,7 @@ Through continuous improvements and attention to detail, I consistently seek out
 
 Give me a sample scenario of a lead developer leading a team taking a bad decision and learning from it. Quote a couple of things to help me relate
 
-## JSON Object storage : (Prefer to say this L4)
+## JSON Object storage (Prefer to say this L4)
  
 ###  **You made a bad decision and how you learned from it**
 
@@ -123,7 +123,7 @@ Upon intercepting these requests, Spring Cloud Gateway's integration with Spring
 
 **Learning:** This experience highlighted the importance of leveraging advanced routing capabilities offered by Spring Cloud Gateway in conjunction with Spring Eureka for dynamic service discovery and load balancing. By strategically configuring Gateway to intercept and route requests based on specific criteria, we were able to achieve targeted traffic management and optimize resource allocation, ultimately ensuring the system's resilience and responsiveness in the face of fluctuating workloads. Moving forward, I will continue to explore and leverage the full capabilities of Spring Cloud Gateway and Spring Eureka to enhance system performance and scalability while maintaining flexibility and configurability.
 
-## Corrupt jar :
+## Corrupt jar
 
 **Situation:** Upon joining a new team in Pittsburgh, I encountered a high-stakes situation just three days into my role as a Lead Software Developer. The team was responsible for deploying a critical application essential for revenue generation, particularly during peak periods like Valentine's Day. However, the deployment process hit a roadblock as the application failed to start after deployment.
 
@@ -146,3 +146,49 @@ Upon intercepting these requests, Spring Cloud Gateway's integration with Spring
 **Result:** Through intensive analysis and collaboration with the team, I successfully identified a corrupt JAR file as the root cause of the deployment failure. By following a systematic approach and leveraging various tools and techniques, we were able to isolate the issue and implement a solution swiftly, ensuring that the company met its timeline for implementing crucial price changes for Valentine's Day.
 
 **Learning:** This experience underscored the importance of a comprehensive understanding of deployment processes and JAR file integrity mechanisms in diagnosing complex technical issues. By employing a methodical approach and leveraging a diverse array of tools and techniques, I was able to navigate the intricacies of the investigation process and deliver a timely solution, ultimately contributing to the success of the project and enhancing my problem-solving capabilities.
+
+## Distributed hold and release application
+
+### Describe the most significant improvement project you've lead
+### When you solved a complex problem with a simple solution
+
+**Situation:**
+The scenario you described involves a critical improvement project aimed at addressing asynchronous updates and billing issues in an application without interrupting live package rating. The situation presented a complex challenge that required a high standard of solution implementation.
+
+**Task:**
+Your task was to design an application capable of intercepting messages, identifying specific criteria related to shipper accounts or tracking IDs, and implementing a hold and release mechanism to manage package flow effectively. This task demanded innovative thinking and a meticulous approach to ensure seamless operation without disrupting critical processes.
+
+**Action:**
+You explored various solutions and proposed the design of an application that leverages a hold and release mechanism. This involved designing a customizable application using Java microservices for the backend and an Angular front-end, demonstrating a commitment to implementing robust and scalable solutions. Your approach prioritized flexibility and adaptability, allowing businesses to effectively manage package flow while minimizing errors and revenue loss.
+
+**Result:**
+Your initiative led to the development of an application that significantly improved the handling of asynchronous updates and billing issues, contributing to enhanced efficiency and revenue preservation. By implementing a customizable solution with a hold and release mechanism, you demonstrated a commitment to maintaining the highest standards of performance and reliability in software development.
+
+**Overall Assessment:**
+Your response effectively addresses the Amazon leadership principle "Insist on Highest Standards" by showcasing a project where you led the design of a sophisticated application to address complex challenges with a focus on performance, reliability, and innovation. Your emphasis on customization and flexibility reflects a dedication to delivering excellence and upholding the highest standards in software development.
+
+## Password Cipher Jar Implementation
+
+### You delivered a project under a tight deadline
+### You were able to remove serious roadblocks to prevent progress.
+
+**Situation:**
+You encountered a critical issue with Jenkins pipelines accessing stored passwords due to the organization's migration to GitHub, jeopardizing the deployment of a suite of applications including orchestrator, adapter, and workers. The project deadline was imminent, adding urgency to finding a solution.
+
+**Task:**
+Your task was to devise an effective and secure way to store passwords compliant with information security standards, ensuring smooth deployment without code changes before the looming production deadline.
+
+**Action:**
+1. **Innovative Solution Development:**
+   You led the development of a solution involving the implementation of a library to intercept Spring Boot applications' configuration retrieval process. This library dynamically fetched encrypted passwords from a secure vault and decrypted them on-the-fly, utilizing placeholders in the Spring Boot configuration files to seamlessly inject passwords into the application without code changes.
+
+2. **Timely Implementation:**
+   Despite the tight deadline, you efficiently developed and tested the solution within one and a half days, demonstrating exceptional time management and problem-solving skills. The swift execution of the project enabled timely release to Nexus, ensuring readiness for production deployment.
+
+**Result:**
+Your innovative solution proved highly effective, enabling the seamless injection of passwords into multiple applications without requiring code modifications. By intercepting the configuration retrieval process, your solution facilitated compliance with security standards while maintaining deployment efficiency. The successful implementation of the solution ensured that the suite of applications could proceed to production as scheduled, mitigating deployment risks and meeting project deadlines.
+
+**Enhancements:**
+- Emphasize the specific impact of the solution on achieving project objectives, such as maintaining security compliance and ensuring deployment readiness.
+- Highlight any challenges encountered during the implementation process and how they were overcome to underscore your problem-solving abilities.
+- Provide quantitative metrics or qualitative feedback on the solution's effectiveness, such as reduced deployment time or positive feedback from stakeholders, to further demonstrate its success.

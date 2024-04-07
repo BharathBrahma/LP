@@ -15,6 +15,7 @@
 
 ## DELIVER RESULTS
 - ### You were driving toward a goal, and realized more then halfway in that it may not be the best goal
+  - Compare tool generic implementation
 - ### A goal you set that took a long time to achieve/are still working towards
 - ### You delivered a project under a tight deadline
   - Cipher jar,
@@ -39,7 +40,7 @@
 - ### The most innovative thing you've done and why it's innovative
   - Cipher jar creation, Configurable rule engine for compares, Error Repository solution, Hold Release solution
 - ### When you solved a complex problem with a simple solution
-  - Eureka tuning
+  - Eureka tuning,Distributed hold and release application
 - ### A creative idea you had that ended up being difficult to implement
   - IO Key mutable implementation
 
