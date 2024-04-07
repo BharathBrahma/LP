@@ -45,7 +45,7 @@ I have always followed the principle of finish strong which means ensuring corre
 
 ## Compare tool :
  
-### ``Tell me about a time where you used your customer feedback to drive improvement``
+#### ``Tell me about a time where you used your customer feedback to drive improvement``
 
 **Situation:** You were involved in a project where a team was integrating with an existing application used worldwide for package tendering, but had confidence issues due to potential scenarios being missed during the transition from a legacy backend service to a new one.
 
@@ -56,7 +56,7 @@ I have always followed the principle of finish strong which means ensuring corre
 **Result:** By incorporating customer feedback into the development process and continuously iterating on the compare tool based on their needs, you were able to achieve over 100% confidence in the project. This outcome demonstrates the importance of leveraging customer feedback to drive improvement and ensure project success.
 
 
-### ``Tell me about a time with most difficult customer interaction``
+#### ``Tell me about a time with most difficult customer interaction``
 
 **Situation:** You were involved in a project where a compare tool was being developed alongside an async service, with tight deadlines and high expectations from the customer.
 
