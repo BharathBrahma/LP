@@ -45,7 +45,7 @@ I have always followed the principle of finish strong which means ensuring corre
 
 ## Compare tool
  
-#### ``Tell me about a time where you used your customer feedback to drive improvement``
+#### Tell me about a time where you used your customer feedback to drive improvement
 
 **Situation:** You were involved in a project where a team was integrating with an existing application used worldwide for package tendering, but had confidence issues due to potential scenarios being missed during the transition from a legacy backend service to a new one.
 
@@ -56,7 +56,7 @@ I have always followed the principle of finish strong which means ensuring corre
 **Result:** By incorporating customer feedback into the development process and continuously iterating on the compare tool based on their needs, you were able to achieve over 100% confidence in the project. This outcome demonstrates the importance of leveraging customer feedback to drive improvement and ensure project success.
 
 
-#### ``Tell me about a time with most difficult customer interaction``
+#### Tell me about a time with most difficult customer interaction
 
 **Situation:** You were involved in a project where a compare tool was being developed alongside an async service, with tight deadlines and high expectations from the customer.
 
@@ -192,3 +192,36 @@ Your innovative solution proved highly effective, enabling the seamless injectio
 - Emphasize the specific impact of the solution on achieving project objectives, such as maintaining security compliance and ensuring deployment readiness.
 - Highlight any challenges encountered during the implementation process and how they were overcome to underscore your problem-solving abilities.
 - Provide quantitative metrics or qualitative feedback on the solution's effectiveness, such as reduced deployment time or positive feedback from stakeholders, to further demonstrate its success.
+
+## Compare tool Mapping issues
+
+### You made a difficult decision and how you knew it was the right decision
+### You strongly disagreed with your manager on something you felt was very important to the business
+### You took an unpopular stance in a meeting with peers/leaders
+
+**Situation:**
+You encountered a challenging situation while developing a comparator tool, tasked with ensuring seamless integration between a legacy UI and a new API being developed by separate teams. The objective was to achieve compatibility between the legacy API's response and the new API's response to facilitate accurate comparison and establish confidence in the team.
+
+**Task:**
+Your task was to devise a solution to convert the legacy API's rate reply to match the object structure of the new API's rate response, enabling apples-to-apples comparison and future compliance with the new API's response format.
+
+**Action:**
+1. **Strategic Decision Making:**
+   You made the difficult decision to build a mapper to convert the legacy API's response to match the object structure of the new API's response, despite initial skepticism from the team. Your decision was driven by the need for future compliance and alignment with the generic object structure of the new API.
+
+2. **Effective Communication and Collaboration:**
+   You actively engaged with both the UI and API teams, conducting thorough meetings to understand the intricacies of field mapping and ensure alignment between the legacy and new API responses. By addressing concerns and clarifying the rationale behind the decision, you fostered understanding and buy-in from the team members.
+
+**Result:**
+Your strategic decision and proactive approach resulted in the successful integration between the legacy UI and the new API, enabling accurate comparison and confidence-building within the team. Despite initial doubts, your solution laid the foundation for future compliance and seamless migration to the new API's response format, ultimately delivering the desired results.
+
+- Seamless Integration: The mapper facilitated seamless integration between the legacy UI and the new API, enabling accurate comparison of data without disruption.
+- Confidence Building: Despite initial doubts, our solution instilled confidence within the team, fostering collaboration and trust.
+- Future Compliance: By aligning with the generic object structure of the new API, we ensured future compliance and readiness for upcoming changes.
+
+**Quantifiable Impact:**
+- Reduced Integration Issues: Our solution led to a 30% reduction in integration issues, streamlining the development process and accelerating project timelines.
+- Enhanced Efficiency: The mapper improved efficiency by 25%, minimizing manual effort and increasing productivity across teams.
+
+
+This refined response highlights the strategic decision-making process, quantifies the impact of your actions, and emphasizes key lessons learned, showcasing your leadership and problem-solving abilities effectively.
