@@ -29,17 +29,23 @@ According to industry reports, transitioning from traditional application server
 You were unsatisfied by the status quo. How would you change it**
 
 **Situation:** During a team meeting, the manager suggested an approach with the phrase "For now, let's do this," which often led to accumulating technical debt.
-**Task:** Recognizing the potential long-term consequences of technical debt, I disagreed with the approach and advocated for finding a more sustainable solution.
-**Action:** I respectfully communicated my concerns to the manager, proposed alternative approaches, and ensured that the issue was documented in our backlog for future resolution.
-**Result:**  The manager agreed to reconsider the approach, and we implemented a different strategy that minimized technical debt and improved overall quality, fostering a culture of continuous improvement within the team.
-I have always followed the principle of finish strong which means ensuring correctness by what is needed.
-Situations to quote : 1.PGA Sync mechanism fail, so manually sync 2. The config server authentication wasn't working with the ssh key, the developer in my absence started the app with his credentials with my managers approvals of "for now" scenario. Then the next thing you know is the contractor is out of the team, and the password expired, we are left with a prod incident in config server.
 
-I would say it should have been followed up with the systems team and debugged a little.
+**Task:** Recognizing the potential long-term consequences of technical debt, I disagreed with the approach and advocated for finding a more sustainable solution.
+
+**Action:** I respectfully communicated my concerns to the manager, proposed alternative approaches, and ensured that the issue was documented in our backlog for future resolution.
+
+**Result:**  The manager agreed to reconsider the approach, and we implemented a different strategy that minimized technical debt and improved overall quality, fostering a culture of continuous improvement within the team.
+
+I have always followed the principle of finish strong which means ensuring correctness by what is needed.
+
+**Situations to quote :** 
+- PGA Sync mechanism fail, so manually sync 
+- The config server authentication wasn't working with the ssh key, the developer in my absence started the app with his credentials with my managers approvals of "for now" scenario. Then the next thing you know is the contractor is out of the team, and the password expired, we are left with a prod incident in config server.
+
 
 ## Compare tool :
  
-**tell me about a time where you used your customer feedback to drive improvement**
+``Tell me about a time where you used your customer feedback to drive improvement``
 
 **Situation:** You were involved in a project where a team was integrating with an existing application used worldwide for package tendering, but had confidence issues due to potential scenarios being missed during the transition from a legacy backend service to a new one.
 
@@ -50,7 +56,7 @@ I would say it should have been followed up with the systems team and debugged a
 **Result:** By incorporating customer feedback into the development process and continuously iterating on the compare tool based on their needs, you were able to achieve over 100% confidence in the project. This outcome demonstrates the importance of leveraging customer feedback to drive improvement and ensure project success.
 
 
-###  **Tell me about a time with most difficult customer interaction**
+``Tell me about a time with most difficult customer interaction``
 
 **Situation:** You were involved in a project where a compare tool was being developed alongside an async service, with tight deadlines and high expectations from the customer.
 
