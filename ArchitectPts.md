@@ -1,15 +1,15 @@
 ## Architect Role Overview
 
-In the architect role, on a day-to-day basis, I will be a part of architectural meetings/discussions with the other architects in our organization, and these meetings are about various topics of current interest.
+In the architect role, on a day-to-day basis:
+- I will be a part of architectural meetings/discussions with the other architects in our organization, and these meetings are about various topics of current interest.
+- Work closely with business to understand the priorities or even help them with the priorities
+- Interact with business architects to understand core business or features needed
+- I have been extensively involved in migrating the on-prem apps to cloud-native micro-services and deploy them in IAAS infrastructure or PAAS infrastructure as needed.
+- One of the key efforts I've been involved in since 2020-2021 is working on Ground Rating Modernization : I played a key role in architecting a highly decoupled orchestrator-worker pattern by leveraging Kafka queues and topics.
+
+Understand the difference between pricing and rating.
 
 ### Responsibilities:
-
-1. Work closely with business to understand the priorities or even help them with the priorities.
-2. Interact with business architects to understand core business or features needed.
-3. Most of the applications in FedEx were/are in DB2 or iSeries, and there is a huge effort going on to modernize these applications. People have been around for like 30 years, and a lot of features are implemented in Cobol. Business team would help dig into existing stuff and come up with requirements.
-4. I have been extensively involved in migrating the on-prem apps to cloud-native micro-services and deploy them in IAAS infrastructure or PAAS infrastructure as needed.
-5. One of the key efforts I've been involved in since 2020-2021 is working on Ground Rating Modernization.
-6. Understand the difference between pricing and rating.
 
 ### Ground Rating Modernization (GRM) Infrastructure:
 
@@ -32,14 +32,21 @@ In the architect role, on a day-to-day basis, I will be a part of architectural 
     - Workflow, Workflow_def, Task, Task_def (Input keys, output keys)
     - Topics, queues, database tables for storing the workflow, task details
     - Each task and workflow have statuses like COM, ERR, INPRG, COMWR
-5. Workers
+5. **Workers**
    - Database Worker, PFI (Publish Invoice), Delivery Area Surcharges, General Ledger
    - Work asynchronously connected with queues and re-publish messages back to the orchestrator topic with a status
    - Based on status message , orchestrator would trigger the next task in the workflow
-7. Rating Engine
-8. Data propagation
-9. Push-Pull architecture for pricing
-10. Role of Policy Grids for configurable rules
+7. **Rating Engine**
+   - Heart of the rating infrastructure
+   - I have been involved in the complete design from the scratch and even today I work on it
+   - REST Endpoint and easy to manage versions of it, highly scalable
+   - Itenary manager : Aggregation, Computation and Disposition
+   - Stations 
+   - Third party Web Service calls : Dynamic fuel, eDD, Customer Account ( Cash status ), GRD, Location Information ( zipcode is pickup, delivery, postal delivery available)
+   - 
+9. Data propagation
+10. Push-Pull architecture for pricing
+11. Role of Policy Grids for configurable rules
 
 ### CI/CD Configuration:
 
