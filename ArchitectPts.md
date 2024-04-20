@@ -53,7 +53,8 @@ Understand the difference between pricing and rating.
     - Pulled data is published to a topic and consumed to udpate the pricing info
 13. Role of Policy Grids for configurable rules
     - In the design decision with my previous background with jRules, after a few POC's I decided and pitched for usage of Policy Grid. This is the heart of the rules where we set it up for business to make it as intuitive as possible for business and reflect the changes right away. A few rules that I can quote are like which service allows what functionality like is signature allowed in this service, whats the weight limit, is there any zone specific rules
-
+    - **JRules:** JRules provides a comprehensive set of features for authoring, managing, and executing business rules. It offers capabilities for rule modeling, decision tables, rule templates, rule validation, testing, and deployment.
+    - **Policy Grid:** The features and functionality of a Policy Grid solution can vary widely depending on the specific implementation or product chosen. It may include features for defining, analyzing, and enforcing policies across different domains within an organization. This mainly is customizable for Organizations with well defined API's to interact. Scaling is easier in this case as this is an enterprise wide thing and can scale with growing rulesets and user base.
 ### CI/CD Configuration:
 
 1. IAAS
