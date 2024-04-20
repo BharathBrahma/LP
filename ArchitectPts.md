@@ -43,10 +43,16 @@ Understand the difference between pricing and rating.
    - Itenary manager : Aggregation, Computation and Disposition
    - Stations 
    - Third party Web Service calls : Dynamic fuel, eDD, Customer Account ( Cash status ), GRD, Location Information ( zipcode is pickup, delivery, postal delivery available)
-   - 
-9. Data propagation
-10. Push-Pull architecture for pricing
-11. Role of Policy Grids for configurable rules
+   - Design of notifications : My contribution was adding something like notifications object to the response object - Now the notifications serve as different purposes -> notify the end users in the UI to display custom messages, notify the downstream systems with agreed upon notification codes which help them verify and tally out things for revenue, now the responses are relayed to one more team in data networks org via Kafka where this is stored in a Cassandra, and further used for data analysis to build dashboards. Instead of json paths , the critical information in the form of codes and plain text helped them to explore options, drove the retry mechanism when we were able to differentiate technical errors like network / service unavailability and others
+8. Ground Rating Database
+   - Formulas
+   - Zones
+11. Push-Pull architecture for pricing
+    - SQL Triggers in Legacy application triggers an event
+    - Based on the event, the data which is modified recently is pulled
+    - Pulled data is published to a topic and consumed to udpate the pricing info
+13. Role of Policy Grids for configurable rules
+    - In the design decision with my previous background with jRules, after a few POC's I decided and pitched for usage of Policy Grid. This is the heart of the rules where we set it up for business to make it as intuitive as possible for business and reflect the changes right away. A few rules that I can quote are like which service allows what functionality like is signature allowed in this service, whats the weight limit, is there any zone specific rules
 
 ### CI/CD Configuration:
 
