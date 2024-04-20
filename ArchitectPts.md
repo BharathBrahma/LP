@@ -31,11 +31,15 @@ In the architect role, on a day-to-day basis, I will be a part of architectural 
     - Mapped Diagnostic Context establishment with Spring Aspect
     - Workflow, Workflow_def, Task, Task_def (Input keys, output keys)
     - Topics, queues, database tables for storing the workflow, task details
+    - Each task and workflow have statuses like COM, ERR, INPRG, COMWR
 5. Workers
-6. Rating Engine
-7. Data propagation
-8. Push-Pull architecture for pricing
-9. Role of Policy Grids for configurable rules
+   - Database Worker, PFI (Publish Invoice), Delivery Area Surcharges, General Ledger
+   - Work asynchronously connected with queues and re-publish messages back to the orchestrator topic with a status
+   - Based on status message , orchestrator would trigger the next task in the workflow
+7. Rating Engine
+8. Data propagation
+9. Push-Pull architecture for pricing
+10. Role of Policy Grids for configurable rules
 
 ### CI/CD Configuration:
 
