@@ -56,14 +56,12 @@ Understand the difference between pricing and rating.
     - **JRules:** JRules provides a comprehensive set of features for authoring, managing, and executing business rules. It offers capabilities for rule modeling, decision tables, rule templates, rule validation, testing, and deployment.
     - **Policy Grid:** The features and functionality of a Policy Grid solution can vary widely depending on the specific implementation or product chosen. It may include features for defining, analyzing, and enforcing policies across different domains within an organization. This mainly is customizable for Organizations with well defined API's to interact. Scaling is easier in this case as this is an enterprise wide thing and can scale with growing rulesets and user base.
 ### CI/CD Configuration:
-
 1. IAAS
 2. PAAS
 
 ### Performance Improvement Approaches:
 
 1. 2 Level Cache Implementation
-2. Query optimization by removing JSON data
 3. DB retrieval optimization by solving "Thundering herd problems"
 4. Optimization of retry mechanism by inclusion of Technical Errors, Business Errors
 
@@ -71,7 +69,7 @@ Understand the difference between pricing and rating.
 
 1. Orchestrator generic solution for multiple domains/organizations
 2. Orchestrator mutable keys
-3. Sharding of database to handle more load
+3. Sharding of database to handle more load and specific customers
 
 ### Additional Responsibilities:
 
@@ -79,6 +77,16 @@ Understand the difference between pricing and rating.
 2. Access controls
 3. Performance monitoring
 4. Error Repository Application
-5. Compare tool development and enhancements
-6. Behavior-driven development emphasis
-7. Password Cipher jar creation
+   - A PCF application
+   - Uses S3 for storing and retrieving JSON data
+6. Compare tool development and enhancements
+    - Write about cassandra DB
+8. Behavior-driven development emphasis
+9. Password Cipher jar creation
+
+### PCF Handbook
+- Services creation for Database 
+- Binding a service with an app
+- Configuring routes for Gateway application
+- Creating CUPS (user-provided-services) for routes
+- Binding routes to the applications 
