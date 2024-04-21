@@ -63,13 +63,19 @@ Understand the difference between pricing and rating.
 
 1. 2 Level Cache Implementation
 3. DB retrieval optimization by solving "Thundering herd problems"
-4. Optimization of retry mechanism by inclusion of Technical Errors, Business Errors
+   - 150,000/ (60 mins / 15 mins) => 3.8 K records / 15 mins
+5. Optimization of retry mechanism by inclusion of Technical Errors, Business Errors
+   - Using json path for recognizing the type of notifications from the notification code and description
 
 ### Future Enhancements I am Owning:
 
 1. Orchestrator generic solution for multiple domains/organizations
-2. Orchestrator mutable keys
-3. Sharding of database to handle more load and specific customers
+   - Since its a highly decoupled and configurable solution, other org used it as a plug and play mechanism
+3. Orchestrator mutable keys
+4. Sharding of database to handle more load and specific customers
+   - Partition the Oracle RAC Database based off of GENI, CENI and EAN
+   - Modify middleware queries to query specific partition to accelerate results
+   - Implement caching in the database to execute the repeated queries faster
 
 ### Additional Responsibilities:
 
