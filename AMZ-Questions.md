@@ -83,3 +83,28 @@
 - ### 3 things your working on to improve overall effectiveness
   - Practising gratitude, empathy and spend x hours on upgrading your skills
 - ### You received tough or critical feedback
+
+### Interview 4/29
+
+Insist
+When u have to make decisions By the way quality and delivery. Outcome, what diff
+
+When u were trying to understand a complex prob and u had to dig, who did you talk with, how did u use the information to solve prob
+
+Hire and develop the best
+Team member was struggle and u decided to help out, how handled situation, why were they not performing, what outcome, what learning > impactful stories > new tech, acq new company
+
+Earns 
+Gimme example of time when u not able to meet commitment ? What was commit? What was obstacle? What was impact for customers? What did u learn
+
+Invent
+Example of complex prob solved with simple solo ? What made prob complex? How do u know it solved?
+
+Cust obs
+Customer came to u for something that wouldn't actually address their need. How do u approach situation and what was the result
+
+Deliver results
+When working towards a goal, half way realize not the right goal and had unintended consequences. What was the situation, what did you do
+
+ownership
+Hard decision , sacrifice short term gain for something long term value for business, what was the outcome, knowing what you know now what u had done differently 
