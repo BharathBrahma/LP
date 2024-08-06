@@ -154,7 +154,7 @@ This experience reinforced my belief in the importance of addressing conflicts h
 # How do you communicate technical project needs with non-technical teams? [Answer]                                                                                        
 # Why are you interested in this role at Meta?                                                                                                                             
 # What do you think about Meta values, and how do you put these values into your work life?                                                                                
-# Tell me about a time when you had to work on something you were passionate about.                                                                                        # STAR Format Response: Development of Orchestrator Worker Pattern
+# Tell me about a time when you had to work on something you were passionate about.                                                                                      
 
 ## Situation
 In my previous role, I was given the opportunity to develop an Orchestrator worker pattern from scratch, a project I was particularly passionate about. The Orchestrator was intended to manage complex workflows across multiple domains, requiring a highly efficient and scalable system. Given my interest in designing robust architectures and optimizing system performance, this project was a perfect fit for me.
