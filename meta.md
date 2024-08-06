@@ -75,7 +75,6 @@ This experience underscored the importance of hands-on leadership and the value 
 # What product that you led are you most proud of and why?   
 
 # Tell me about a time you convinced someone to change their mind.   
-# STAR Format Response: Transition from WebLogic to Microservices
 
 ## Situation
 After relocating to Pittsburgh, I was tasked with upgrading the WebLogic servers that were crucial for several applications within the company. However, maintaining these servers was becoming increasingly complex due to compliance requirements and the challenges of keeping them up to date. The complexity of managing WebLogic led to increased maintenance costs and potential risks, prompting me to explore more modern solutions.
