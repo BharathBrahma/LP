@@ -1,0 +1,14 @@
+- have you ever had difficult/challenging situation in your previous job
+- have you had any competing priorities
+- tell me about a time when you led the team for some task (or took extra responsibilities. he tried to see if I led anyone)
+- tell me about a time when you work together with other teams
+- Tell me about a time you made a mistake. [Answer]
+- What product that you led are you most proud of and why? [Answer]
+- Tell me about a time you convinced someone to change their mind. [Answer]
+- Can you give me an example of how you manage conflict? [Answer]
+- Give me an example of how you negotiated between two teams.
+- How do you handle promoting someone as a manager?
+- How do you communicate technical project needs with non-technical teams? [Answer]
+- Why are you interested in this role at Meta?
+- What do you think about Meta values, and how do you put these values into your work life?
+- Tell me about a time when you had to work on something you were passionate about.
