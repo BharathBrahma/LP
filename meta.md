@@ -75,55 +75,58 @@ This experience underscored the importance of hands-on leadership and the value 
 # What product that you led are you most proud of and why?   
 
 # Tell me about a time you convinced someone to change their mind.   
-Situation:
+# STAR Format Response: Transition from WebLogic to Microservices
+
+## Situation
 After relocating to Pittsburgh, I was tasked with upgrading the WebLogic servers that were crucial for several applications within the company. However, maintaining these servers was becoming increasingly complex due to compliance requirements and the challenges of keeping them up to date. The complexity of managing WebLogic led to increased maintenance costs and potential risks, prompting me to explore more modern solutions.
 
-Task:
+## Task
 I proposed transitioning from WebLogic servers to a microservices architecture using lightweight servers such as Tomcat and Spring Boot. This approach promised greater flexibility, easier maintenance, and improved scalability. However, my proposal was met with skepticism from my manager and management, who were concerned about the boldness of the move and the potential for errors during the rewrite process, which could negatively impact revenue.
 
-Action:
+## Action
 To address these concerns and build confidence in my proposed approach, I developed a comprehensive plan that included the following components:
 
-Risk Analysis:
+### Risk Analysis
+- **Technical Risks:** Identified potential technical risks such as integration challenges with existing systems, performance bottlenecks, and compatibility issues with third-party services.
+- **Business Risks:** Assessed business risks, including potential downtime during the transition, the impact on revenue-generating services, and compliance with industry standards.
+- Developed mitigation strategies for each risk, including extensive testing, phased rollouts, and fallback options to minimize disruption.
 
-Technical Risks: I identified potential technical risks such as integration challenges with existing systems, performance bottlenecks, and compatibility issues with third-party services.
-Business Risks: I also assessed business risks, including potential downtime during the transition, the impact on revenue-generating services, and compliance with industry standards.
-I created mitigation strategies for each risk, including extensive testing, phased rollouts, and fallback options to minimize disruption.
-Implementation Plan:
+### Implementation Plan
+- **Gantt Chart Overview:**
+  - **Analysis Phase (2 weeks):** Detailed assessment of the current WebLogic infrastructure, including dependencies and compliance requirements.
+  - **Pilot Rewrite and Testing Setup (5 weeks):**
+    - Selection of an initial application to rewrite using Spring Boot and deploy on Tomcat.
+    - Setup of a parallel testing environment to validate the new architecture.
+    - Collaboration with testing teams to ensure comprehensive coverage of business cases, with a focus on revenue-related functionalities.
+  - **Full Implementation and Rollout (4 weeks):**
+    - Gradual migration of other applications, ensuring continuous monitoring and real-time adjustments.
+    - Development of CI/CD pipelines to facilitate seamless updates and enhance scalability.
 
-Gantt Chart Overview:
-Analysis Phase (2 weeks): Detailed assessment of the current WebLogic infrastructure, including dependencies and compliance requirements.
-Pilot Rewrite and Testing Setup (5 weeks):
-Selection of an initial application to rewrite using Spring Boot and deploy on Tomcat.
-Setup of a parallel testing environment to validate the new architecture.
-Collaboration with testing teams to ensure comprehensive coverage of business cases, with a particular focus on revenue-related functionalities.
-Full Implementation and Rollout (4 weeks):
-Gradual migration of other applications, ensuring continuous monitoring and real-time adjustments.
-Development of CI/CD pipelines to facilitate seamless updates and enhance scalability.
-Agile Approach:
+### Agile Approach
+- Proposed managing the transition using an Agile methodology, organizing the project into sprints that allowed for flexibility and rapid iteration.
+- **Sprint Planning:** Broke down the migration into 2-week sprints, each focusing on specific components of the transition, such as the initial pilot rewrite, testing, and full rollout.
+- **Daily Stand-Ups:** Led daily stand-ups to track progress, address blockers, and ensure alignment among all team members.
+- **Sprint Reviews:** Conducted reviews at the end of each sprint to gather feedback, assess outcomes, and make necessary adjustments for the next sprint.
 
-I proposed managing the transition using an Agile methodology, organizing the project into sprints that allowed for flexibility and rapid iteration.
-Sprint Planning: I broke down the migration into 2-week sprints, each focusing on specific components of the transition, such as the initial pilot rewrite, testing, and full rollout.
-Daily Stand-Ups: I led daily stand-ups to track progress, address blockers, and ensure alignment among all team members.
-Sprint Reviews: At the end of each sprint, I conducted reviews to gather feedback, assess outcomes, and make necessary adjustments for the next sprint.
-Contingency Planning:
+### Contingency Planning
+- Developed a robust contingency plan, including a rollback strategy for each stage of the migration. This involved maintaining the existing WebLogic servers in parallel until the new microservices-based system was fully validated.
+- Set clear criteria for rolling back the transition if critical issues were encountered, ensuring that we could revert to the previous setup with minimal disruption.
 
-I developed a robust contingency plan, including a rollback strategy for each stage of the migration. This involved maintaining the existing WebLogic servers in parallel until the new microservices-based system was fully validated.
-I set clear criteria for rolling back the transition if critical issues were encountered, ensuring that we could revert to the previous setup with minimal disruption.
-Load Testing and Performance Validation:
+### Load Testing and Performance Validation
+- Emphasized the importance of load testing to ensure that the new architecture could handle peak traffic and was future-ready.
+- Configured the testing environment to simulate real-world conditions, working closely with product owners and testers to validate performance under various scenarios.
+- This rigorous testing phase helped to build confidence in the new system's reliability and scalability.
 
-I emphasized the importance of load testing to ensure that the new architecture could handle peak traffic and was future-ready.
-The testing environment was configured to simulate real-world conditions, and I worked closely with product owners and testers to validate performance under various scenarios.
-This rigorous testing phase helped to build confidence in the new system's reliability and scalability.
-Result:
+## Result
 Management was impressed by the thoroughness of my plan and the comprehensive approach to risk mitigation and testing. They agreed to allow us to pilot the new approach on one application initially. This application included both UI and backend components and interacted with various services, including those capturing revenue-related data.
 
 The transition to Spring Boot and Tomcat was executed successfully, with the following key outcomes:
 
-Cost Savings: The new architecture resulted in significant reductions in the time and costs associated with WebLogic upgrades. The ease of maintenance and the ability to push updates seamlessly through the new CI/CD pipelines translated into further savings.
-Scalability: The system's horizontal scalability was enhanced, allowing for efficient resource utilization through configurable properties.
-Efficiency: The modern microservices approach enabled quicker updates and more straightforward management of the infrastructure, aligning with our goal of future-proofing our systems.
-Risk Mitigation: The comprehensive testing and contingency planning ensured that the transition was smooth, with no significant disruptions to revenue-generating services.
+- **Cost Savings:** The new architecture resulted in significant reductions in the time and costs associated with WebLogic upgrades. The ease of maintenance and the ability to push updates seamlessly through the new CI/CD pipelines translated into further savings.
+- **Scalability:** The system's horizontal scalability was enhanced, allowing for efficient resource utilization through configurable properties.
+- **Efficiency:** The modern microservices approach enabled quicker updates and more straightforward management of the infrastructure, aligning with our goal of future-proofing our systems.
+- **Risk Mitigation:** The comprehensive testing and contingency planning ensured that the transition was smooth, with no significant disruptions to revenue-generating services.
+
 According to industry reports, transitioning from traditional application servers like WebLogic to lightweight solutions like Spring Boot can result in cost savings ranging from 20% to 50% in infrastructure and maintenance costs. Given the scale of our operations, this could translate to annual savings of hundreds of thousands to millions of dollars.
 
 This successful pilot led to broader adoption of the microservices strategy across other applications within the company, validating my approach and highlighting the benefits of embracing modern, scalable solutions.
