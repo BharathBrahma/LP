@@ -45,7 +45,30 @@ Result:
 Despite the infrastructure challenges, I successfully delivered the Orchestrator solution on time. The system was robust, scalable, and met all the deployment requirements across multiple domains. The infrastructure enhancements, including the scaled Kafka cluster, optimized Lambda scaling criteria, increased Oracle connections, and expanded Redis cluster, ensured the system’s stability and future-proofed it for growing demands.
 
 Simultaneously, the Compare Tool enhancements were completed without delays, leading to significant improvements in tool performance and user satisfaction. This experience demonstrated my ability to effectively manage competing priorities and infrastructure challenges, ensuring successful project delivery while maintaining a focus on collaboration, quality, and long-term scalability.
-# Tell me about a time when you led the team for some task (or took extra responsibilities. he tried to see if I led anyone)                                               
+# Tell me about a time when you led the team for some task (or took extra responsibilities. he tried to see if I led anyone)                                               Situation:
+In my previous role, I was tasked with leading the adoption of ephemeral environments within our development pipeline. This initiative aimed to enhance our on-demand testing capabilities and accelerate the software development lifecycle by integrating tools like Terraform and cloud infrastructure management. The project was crucial for improving efficiency but posed significant challenges, particularly for the junior developers on the team who were unfamiliar with the new technologies and methodologies involved.
+
+Task:
+As the project lead, my primary responsibility was to ensure the successful implementation of ephemeral environments while also mentoring the junior developers. I needed to guide them through the complexities of infrastructure automation, cloud orchestration, and the integration of ephemeral environments into our existing workflow.
+
+Action:
+To manage the adoption process effectively, I started by setting up a series of workshops to introduce the team to the concept of ephemeral environments, the benefits they bring, and the specific tools we would be using, such as Terraform for infrastructure as code (IaC). These sessions were designed to build a strong foundational understanding, especially for the junior developers who were new to these technologies.
+
+Recognizing the steep learning curve, I implemented a mentoring system where I paired junior developers with more experienced team members. This approach allowed for hands-on learning through pair programming, where juniors could actively participate in the setup and deployment of ephemeral environments while receiving guidance and feedback in real time.
+
+I led from the front by taking charge of the most complex tasks, such as integrating Terraform with our cloud infrastructure to automate the creation and destruction of environments. I demonstrated the process of writing modular and reusable Terraform scripts, explaining the best practices for managing state, variables, and resource configurations. Throughout this process, I made sure to involve the junior developers, walking them through each step and encouraging them to contribute to the scripts and deployment processes.
+
+Additionally, I organized regular code reviews and knowledge-sharing sessions where team members, including juniors, could present their work, discuss challenges, and share solutions. This not only helped in building their confidence but also fostered a collaborative learning environment.
+
+When we faced challenges, such as configuring the scaling criteria for ephemeral environments or dealing with cloud resource limitations, I took the lead in troubleshooting and problem-solving sessions. I encouraged the juniors to actively participate, guiding them through the process of identifying issues, exploring solutions, and implementing fixes.
+
+Result:
+As a result of these efforts, the team successfully adopted ephemeral environments, significantly improving our on-demand testing capabilities and reducing the time required to spin up and tear down test environments. The junior developers not only gained proficiency in Terraform and cloud infrastructure management but also developed a deeper understanding of DevOps practices and infrastructure automation.
+
+Their growth was evident in their ability to take on more complex tasks independently as the project progressed. The successful adoption of ephemeral environments led to increased productivity across the development pipeline, and the juniors I mentored were well-prepared to contribute to future infrastructure and DevOps initiatives.
+
+This experience underscored the importance of hands-on leadership and the value of coaching in driving both project success and team development. By leading from the front and fostering a culture of continuous learning, I was able to guide the team through a significant technological shift while ensuring the professional growth of my colleagues.
+
 # Tell me about a time when you work together with other teams                                                                                                             
 # Tell me about a time you made a mistake. [Answer]                                                                                                                        
 # What product that you led are you most proud of and why? [Answer]                                                                                                        
