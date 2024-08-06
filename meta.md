@@ -71,6 +71,25 @@ This experience underscored the importance of hands-on leadership and the value 
 
 # Tell me about a time when you work together with other teams                                                                                                             
 # Tell me about a time you made a mistake.
+Situation:
+In a previous role, I was working on a project that involved managing a large volume of JSON data within our database. We were using traditional relational tables to store this JSON data due to its flexibility and ease of querying. As the volume of requests grew exponentially, I noticed that the database was becoming increasingly strained, leading to performance issues. To address this, I decided to optimize the table design by compressing columns and adding appropriate indexes. Confident in the changes, I moved forward without conducting thorough load testing, believing the optimizations would be sufficient.
+
+Task:
+My task was to find a sustainable solution to manage the increasing volume of JSON data efficiently while ensuring the database remained performant and scalable. However, by underestimating the scale of the data and skipping extensive load testing, I made a critical mistake that led to further performance degradation and exceeded the database's size expectations. This mistake caused delays in data processing and impacted the user experience.
+
+Action:
+When the performance issues became apparent, I realized that my initial approach had not adequately addressed the scalability challenges. I immediately took responsibility for the oversight and initiated a deeper analysis of the situation. Through this analysis, I identified that the current database structure was not well-suited to handle the rapidly growing JSON data.
+
+To rectify the mistake, I led an effort to re-architect the data storage solution. Recognizing the limitations of our existing approach, I proposed moving the JSON data to a separate object storage solution that was better equipped to handle large, unstructured data. Additionally, I explored alternative database solutions and decided to adopt a wide columnar database specifically designed to manage large volumes of JSON data more efficiently.
+
+I also implemented a rigorous testing framework that included extensive load testing to simulate peak conditions and ensure the new solution could handle the expected data volumes. This testing phase involved setting up a staging environment that closely mirrored production, allowing us to identify and address any potential issues before deployment.
+
+Result:
+The new approach to storing JSON data in an object storage solution, combined with the use of a wide columnar database, significantly improved the system’s performance and scalability. The performance degradation issues were resolved, and the database size was managed more effectively, preventing the system from being overwhelmed by the growing volume of requests.
+
+However, this experience was a valuable lesson in the importance of thorough testing and the need to fully understand the implications of system changes. By learning from this mistake, I was able to implement a more robust solution that not only met the immediate needs but also positioned the system for future growth.
+
+In the end, the new architecture led to improved data processing times, better resource utilization, and enhanced system stability. The lesson learned from this experience also influenced my approach to future projects, where I placed a greater emphasis on comprehensive testing and validation, ensuring that similar mistakes were not repeated.
 
 # What product that you led are you most proud of and why?   
 
