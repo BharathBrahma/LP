@@ -4,6 +4,16 @@
 
 # Data Modeling
 
+## Size of various datatypes
+```
+INT, FLOAT : 4 Bytes
+TEXT : 1 KB - 5 KiloBytes
+ID# (varchar 36) : 36 Bytes
+name (varchar 255) : 256 Bytes
+price (decimal(10,2)) : 10 Bytes
+created_at (datetime) : 8 Bytes
+currency (char(3)) : 3 Bytess
+```
 # API Design
 
 ## e-Commerce
