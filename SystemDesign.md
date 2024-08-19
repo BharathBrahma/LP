@@ -1,6 +1,35 @@
 # Requirements Engineering
 
 # Capacity Estimation
+```
+Chat APP
+--------
+1 million DAU
+50 messages/day
+Each message : 5KB
+Retention : 5 years
+```
+- STORAGE Requirements
+```
+1 million users X 50 messages/day = 50 million messages/day
+5 KB X 50 mi messages/day = 250 X 10 ^ 9 = 250 GB /day
+250 GB X 356 days = 90 TB/year
+90 TB/year x 5 = 450 TB/5 year
+```
+
+- Bandwidth Requirements
+```
+ 50 messages/day x 5KB/message = 250 KB/day/user
+ 1 mil x 250 KB => 250 GB / day
+ Bandwidth/sec : 250 x 10^9 / 100,000 => 2.5 MB/second
+```
+
+- Transactions/sec
+```
+ 50 mil messages/day / 100,000 seconds/day => 500 messages/sec
+ READ + WRITE TPS => 500 + 500 = 1000 messages/sec
+ Peak => 1000 X 2 => 2000 messages/sec
+```
 
 # Data Modeling
 
@@ -49,6 +78,57 @@ currency (char(3)) : 3 Bytess
 - `PUT /cart/items/{id}` : Update item count of an item in cart
 - `DELETE /cart/items/{id}` : Delete the item from cart
 - `POST /cart/checkout` : Checkout the cart
+
+### Chat app
+
+- `POST /auth/login` : login
+- `POST /messages` : Send message API
+{
+  "sender_id": "user123",
+  "recipient_id": "user456",
+  "message_type": "text",  // could be 'text', 'image', 'video', etc.
+  "content": "Hey, how's it going?",
+  "timestamp": "2024-08-18T15:45:00Z"
+
+}
+
+- `GET /chats/{user_ID}/{recipient_ID}`
+```
+GET /chats/{user_id}/recipient_ID?page=1&page_size=20 HTTP/1.1
+HOST : api.chatapp.com
+Authorization : Bearer <<TOKEN>>
+```
+
+```
+{
+"messages" : [
+{
+ "message_id" : "xxxx11",  //36 bytes
+ "sender_id" : "123D",     //36 bytes
+ "recipient_id" : "342D",  //36 bytes
+ "message_type" : "TEXT", //IMAGE,VIDEO,FILE etc //8 Bytes
+ "messsage_content" : "", //1KB - 5 KB
+ "timestamp" : "2024-08-19T15:01:12" //8 Bytes
+}, //5.1KB each messsage
+{
+ "message_id" : "xxxx11",
+ "sender_id" : "123D",
+ "recipient_id" : "342D",
+ "message_type" : "TEXT", //IMAGE,VIDEO,FILE etc
+ "messsage_content" : "",
+ "timestamp" : "2024-08-19T15:01:12"
+}
+],
+"pagination": {
+"total_messsages" : 50,
+"page" : 1,
+"page_size" : 20,
+"total_pages" : 3
+}
+}
+
+```
+
 # System Design
 
 # Design Discussion
