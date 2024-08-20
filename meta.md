@@ -227,4 +227,14 @@ The Orchestrator worker pattern was successfully developed and deployed, resulti
 
 This experience reinforced my belief in the importance of pursuing projects that align with my passions, as it drives me to deliver innovative and high-quality solutions that make a meaningful impact.
 
-                                                                                                                                                                           
+# TODO
+
+## Context setting about current project
+
+## Questions
+- How do you deal with teammate when you do not get a response from  and you need something
+- How to deal with management changes
+- Explain about a complex problem that you have solved at your workplace
+
+                                                                                                                                                                        
+                                                                                                                                                                        
