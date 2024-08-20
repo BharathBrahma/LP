@@ -234,6 +234,17 @@ This experience reinforced my belief in the importance of pursuing projects that
 ## Questions
 - How do you deal with teammate when you do not get a response from  and you need something
 - How to deal with management changes
+  - Ack the change
+  - Adapt quickly
+  - Align with new goals
+  - Lead by example
+"Management changes can be challenging, but I see them as opportunities for growth and improvement. When a new manager or director comes on board, I start by gathering information about their goals, priorities, and leadership style. This helps me align my team’s objectives with the new direction.
+
+I maintain open communication with my team, ensuring they are informed and feel supported during the transition. I’m also flexible in adapting to any new processes or cultural shifts introduced by the new management.
+
+To ensure my team remains productive and motivated, I lead by example, providing stability and promoting a growth mindset. I also believe in offering constructive feedback to the new management if necessary, always advocating for my team’s needs.
+
+Finally, I reflect on the transition to learn from the experience and continuously improve my leadership approach, preparing for any future changes that may come."
 - Explain about a complex problem that you have solved at your workplace
 
                                                                                                                                                                         
