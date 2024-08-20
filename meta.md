@@ -177,6 +177,12 @@ The phased approach was successfully implemented, leading to significant perform
 
 This experience reinforced my belief in the importance of addressing conflicts head-on, ensuring that all stakeholders feel heard and respected. By fostering collaboration and focusing on long-term goals, I was able to turn a potentially disruptive conflict into a productive dialogue that benefited the entire project.
 
+Sharding details :
+The team proposed to shard by shipperId, zone ID, Location ID \
+Also proposed hybrid approach where compound shard key with shipperId_zone  \
+But the complexity in shard key design with hybrid approach, maintainability like adding nodes and the uncertainity behind uneven distribution of data on different shards if sharded by what the team propsed , DBA was'nt giving a buy-in 
+Leaving the ego aside , working for the company's best - combinedly both the teams decided to agree on sharing on request id and pre-compute the shardId that the query should be fired to. The DBA team decided to go with 3 shards to start with, and the queries were made configurable to pre-compute it based on a hash function. Further partitioning the tables with shipped date , helped to custom create the queries and improved peformance
+
 # Give me an example of how you negotiated between two teams.                                                                                                              
 # How do you handle promoting someone as a manager?                                                                                                                        
 # How do you communicate technical project needs with non-technical teams? [Answer]                                                                                        
