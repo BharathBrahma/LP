@@ -12,6 +12,13 @@ I then led the implementation of a two-level caching system, which significantly
 
 Throughout this process, I prioritized collaboration by maintaining open communication channels with the various teams involved, ensuring that the changes were understood and smoothly integrated into the existing system. I also focused on building fast by rolling out the most impactful improvements in stages, minimizing disruption to users.
 
+Cross functional collaborations : \
+- Worked with architects on the to analyze the queries, and I led a workshop (which is 2 hrs of un-inturrupted meetings for 1 week) to create materialized views for the expensive queries of calculating zones, base rates for package
+- Worked with the redis team to understand the amount of storage that can be granted for this application ID , then implemented a hybrid approach which is 2 level caching with caffiene and redis for faster data retrieval and lesser queries
+- ** mention this in other point - Revisted caching, how effective it is at peak time, cache hit ratio, how effectively are we mapping cached data and created views which are only a subset of data to be stored
+- Separated the reads and writes as there was a process that was hydrating the data as the application read the data, so worked with DBA's to separate the traffic and helped with bottleneck of connections at the DB
+- Too much data was being stored , so devised a plan for purging the data which effectively copies over the data to a hard drive or cold storage for audit purposes
+  
 Result:
 As a result of these actions, I successfully resolved the immediate performance issues and positioned the system for long-term success. The system's improved efficiency allowed us to meet our SLAs consistently, even during peak usage times. These optimizations led to increased user satisfaction and confidence in our platform, as the system was now more robust and capable of handling the demands of a growing user base.
 
