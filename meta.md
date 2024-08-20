@@ -233,6 +233,13 @@ This experience reinforced my belief in the importance of pursuing projects that
 
 ## Questions
 - How do you deal with teammate when you do not get a response from  and you need something
+"When a teammate is unresponsive, I start by assessing the situation to understand if there might be any reasons for their lack of response, such as a heavy workload or personal issues. I then follow up politely, clearly stating what I need, why it’s important, and when I need it by. I make sure to use the appropriate communication channels, and if necessary, I escalate my follow-up gradually.
+
+If the issue is urgent, I emphasize the impact of not getting a response and set a clear deadline. I also offer to help if they’re overwhelmed or suggest alternative solutions to move the project forward.
+
+If multiple follow-ups don’t work and the situation is critical, I escalate the issue to management, focusing on finding a constructive solution rather than placing blame. After the situation is resolved, I reflect on the experience to improve my communication practices in the future."
+
+This framework demonstrates that you handle unresponsiveness with professionalism, empathy, and a focus on collaboration, ensuring that the team’s goals are met while maintaining positive working relationships.
 - How to deal with management changes
   - Ack the change
   - Adapt quickly
