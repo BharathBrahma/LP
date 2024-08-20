@@ -23,6 +23,8 @@ Result:
 As a result of these actions, I successfully resolved the immediate performance issues and positioned the system for long-term success. The system's improved efficiency allowed us to meet our SLAs consistently, even during peak usage times. These optimizations led to increased user satisfaction and confidence in our platform, as the system was now more robust and capable of handling the demands of a growing user base.
 
 # Have you had any competing priorities
+# Most difficult project or task
+# Something you are proud of
 Situation:
 In my previous role, I was leading the development of a critical Orchestrator solution intended for deployment across multiple domains within our organization. Concurrently, I was also managing the enhancement of an internal Compare Tool used for analyzing and comparing large datasets. Both projects were crucial to the organization’s strategic goals, and each had tight deadlines. The Orchestrator project, in particular, faced significant infrastructure challenges, including the need to scale our Kafka cluster, develop effective criteria for scaling AWS Lambda functions, increase the number of connections our Oracle cluster could handle, and add nodes to the Redis cluster. These infrastructure delays posed a risk to the project timeline.
 
