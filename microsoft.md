@@ -43,3 +43,11 @@
   - Prioritization: I prioritized tasks based on their impact and urgency, ensuring that critical components were addressed promptly while managing other aspects of the project in parallel.
 
   - Collaboration: I fostered collaboration within the team and with external stakeholders, ensuring that everyone was aligned and working towards common goals despite the uncertainties.
+
+## Innovation/Thought process
+
+Situation: As a principal engineer on the team, I was tasked with reducing the errors, replays, rebills and re-rates requests that were coming in as a part of production support. There was a process where every day we would get to know the errors occurred while ledgering , and invoicing once the package is rated. A lot scenarios where the customer was billed wrong due to errors in WS calls, data hydration etc. 
+Task : My task was to target to reduce the number of errors by atleast 30 - 40% by the end of the PI
+Action : My initial thought process was to understand the scale of errors, categorize the errors and get an idea of why or where majority of the errors are happening. I took help from a Data team , set up kafka queues to relay our rating information to them, where they would aggregate and create a dashbboard.
+But the dashboard wasnt really helping with drilling down unless we could categorize effectively. Now I took the initiative to work with a DOM committe that approves requests for changing/modifying json schema to add a new list and named it notifications. My thought process was to add notification in each stage of calculation with a notification code, description. Like it would say base charge was this, discount retrived was this, customer is not billed etc. Based on the notification codes, the dashboard looked much better and the errors were categorized. 
+Result: Worked on the highest errors first, implemented resilience4j and circuit breaker pattern to retry rating when WS fails instead of wrong data, and I was able to lead the effort of moving these changes phase by phase to production. Definitely reduced the number of times we were paged and results were quantify able to the management.
