@@ -26,3 +26,13 @@
     - Automated replays in terms of network glitch
     - Authorization with OAuth 2.0
    - Result - Used as a repo for the org under my director and sister teams
+## Dealing with Ambiguity
+  ### GRM VB2 Orchestration
+  - Problem solving
+  - Decision making
+  - Adaptability
+  - Critical thinking
+  - Communication skills
+  - Resilience
+  - Prioritization
+  - Collaboration
