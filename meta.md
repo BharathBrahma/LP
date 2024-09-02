@@ -254,5 +254,83 @@ To ensure my team remains productive and motivated, I lead by example, providing
 Finally, I reflect on the transition to learn from the experience and continuously improve my leadership approach, preparing for any future changes that may come."
 - Explain about a complex problem that you have solved at your workplace
 
-                                                                                                                                                                        
+## Interviewing.io Questions 
+#### A story about a project they are proud of that had a large impact on their org.
+- “What project are you most proud of and why?”
+  - **Error Repository**, Hold And Release App, Compare tool app
+    - Org level impact
+    - Motivation: solve a common problem and make difference
+    - Proactive: Meet with stake holders to see what I can do better, brainstorm on the features, how generic can it be made
+    - Perseverance: To meet deadline, need to get all the pawns in place. DB provisioning, Queue provisioning, Features, Stories
+    - Empathy: Open for constructive critisism and understanding the problem or concern from their point of view
+
+- “Tell me about a recent day working that was really great and/or fun.”
+  - For great, I would like to quote **Compare tool app** and how it helped making decisions for management to push code to prod and get rid of old infrastructure
+    
+####  A story about a change they proactively suggested and drove that had an impact on their entire org. Usually requiring two or more teams to work on. 
+- “Tell me about a time when you wanted to change something that was outside of your regular scope of work.”
+  - JDK Upgrades to Weblogic servers
+     - Emphasize on the Org level impact
+     - The convincing part
+     - The Planning part
+      
+- “Tell me about a time you had to make a fast decision and live with the results.”
+    - Suggestion of Hold And Release methodology
+      - It was a feature that was required once all the adapter, orchestrator was in place
+      - It needed to be quick and efficient
+      - This needed to be done by business without any technical knowledge
+      - Living with it as its working for our stakeholders well and they control it
+        
+#### A story about an ambiguous project that the candidate took ownership of and was able to drive consensus from stakeholders in their org. Usually requiring two or more teams to work on.
+- “How do you decide what to work on next?”
+  - Being in the principal role here at FedEx, I have been a part of design conversations for a while now
+  - Being in this role has given me a breadth of view from an architects perspective and by leading a group of developers, deeveloper perspective
+  - From the architect, I would only a one liner of what needs to be done, and why it would help
+  - Then I would dig in deep, collaborate with on-site off-shore leads, may be whiteboard stuff, and lay out how it can be done
+  - Once I discuss this with Architect, I go and articulate the how process, and assign the stories based on the strengths of devs including me
+  - While developing there are more things that are usually discovered, it could be like adding an extra column in the db, it could be adding extra field in the json, or sometimes scrap the whole how as we got to know why it cant be done only after laying down a bit of implementation.
+  - I maintain a list of things that are pending and would take a considerable amount of man-hours
+  - Discuss this with Architect to see where we stand with future new features
+  - Then once this list is compiled its the job of Product Owners to help me but my say has a good amount of weight as I have gotten into the weeds more
+    
+- “Tell me about a project or task that was ambiguous or underspecified.”
+  - Underspecified : VB2 Implementation, Compare tool Implementation
+
+#### A story about a project with many technical difficulties that were blocking many teams and how they overcame each blocker.
+
+- “Tell me about a time when you needed to overcome external obstacles to complete” a task or project.
+  - VB2 Infrastructure provisioning with deadline
+  - Compare tool mapping issues with CRSV
+    
+- “Tell me about a time a project took longer as expected.”
+   - VB2 timeline with workers ( explain with "I" as the POV )
+
+#### A story about how they were able to work through a disagreement with two or more teams on the direction of a large project.
+- “Tell me about a person or team who you found most challenging to work with.”
+   - Compare tool mapping issues ( Conflict story , add more points to emphasize on empathy and perserverance )
+- “Tell me about a time you disagreed with a coworker.”
+   - Weblogic story if Compare tool was already mentioned
+- “Tell me about a situation where two teams couldn’t agree on a path forward.”
+   - DB sharding story ( Make it a bit more technical, add details on perseverance )
+
+####  A story about a soft skill or technical skill they want to developer and the progress they have made to learn it. Usually a skill that will have the potential to affect two or more teams.
+
+- “Describe a situation when you made a mistake, and what you learned from it.”
+  - JSON Data in tables
+    - why json was stored plain
+    - explain why it was missed in lower levels ( quote urgency factor )
+    - articulate what was the impact ( DB alerts, slowness in responses as it throttled the db, infrastructure isn't alike production, so cant load much )
+    - what was the quickest fix I was able to make ( purge job to reclaim some space )
+    - Hot fix in L4 to push the data to object store and retrieve while comparing ( Followed by immidiate request for BLOB storage in PROD )
+    - Communicate it to mananger, and make sure he is able to answer the management for a missed deadline and how fast and efficient we are fixing
+      
+- “Tell me about some constructive feedback you received from a manager or a peer”
+  - Networking with the architects beyond the Org
+  - Know how the systems operate and gather information of best practices across
+    
+- “Tell me about a skill set that you observed in a peer or mentor that you want to develop in the next six months.”
+   - Be here now during the meetings
+   - Think from different POV's and for that gain domain knowledge of the systems involved
+   - Always think from a perspective of generalization and robustness when designing interfaces
+   - Be open minded and understand from where the other person is coming during the discussions
                                                                                                                                                                         
