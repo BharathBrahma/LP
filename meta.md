@@ -320,6 +320,18 @@ Finally, I reflect on the transition to learn from the experience and continuous
 #### A story about how they were able to work through a disagreement with two or more teams on the direction of a large project.
 - “Tell me about a person or team who you found most challenging to work with.”
    - Compare tool mapping issues ( Conflict story , add more points to emphasize on empathy and perserverance )
+### Conflict Story ****
+"In one of the projects I worked on, we faced a significant challenge while developing a comparator tool. The goal was to integrate a legacy UI with a new API, both being developed by different teams. The challenge lay in achieving compatibility between the legacy API’s response and the new API’s format so that we could make accurate comparisons. It was a complex situation with differing opinions on how to proceed.
+
+I was tasked with finding a solution to ensure both systems could work together. After exploring the options, I decided to build a mapper to convert the legacy API’s response to match the object structure of the new API. There was a lot of skepticism from both teams initially, as some believed this would be unnecessary or overly complicated. But I knew that aligning the systems would not only resolve our immediate challenge but also set us up for future compliance and reduce issues down the line.
+
+Empathy played a big role in how I approached this situation. I spent time understanding the concerns of both teams, ensuring I wasn’t just pushing my own solution but truly listening to where the hesitation came from. For example, the UI team was worried about the impact on their workflow, while the API team feared additional complexity. By showing that I understood their concerns and explaining the long-term benefits clearly, I was able to foster understanding and buy-in. This wasn’t easy, and there were moments where progress felt slow, but I stayed persistent, keeping the focus on our shared goal.
+
+Perseverance was key. I didn’t let the initial skepticism discourage me. I continued to engage both teams in regular discussions, offering detailed clarifications on the technical approach, and showing empathy for the challenges they were facing. It took some time, but eventually, we reached a consensus, and the teams were on board.
+
+The result was that the mapper we built facilitated seamless integration between the legacy UI and the new API. We reduced integration issues by 30% and improved efficiency by 25%, which accelerated project timelines. The success of this solution also instilled a sense of confidence within the teams, and it laid a solid foundation for future compliance with the new API’s response structure.
+
+Ultimately, this experience taught me the value of perseverance and empathy in a collaborative environment, and how critical it is to keep everyone aligned toward a common goal, even when there’s disagreement."
 - “Tell me about a time you disagreed with a coworker.”
    - Weblogic story if Compare tool was already mentioned
 - “Tell me about a situation where two teams couldn’t agree on a path forward.”
