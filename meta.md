@@ -345,4 +345,14 @@ Finally, I reflect on the transition to learn from the experience and continuous
    - Think from different POV's and for that gain domain knowledge of the systems involved
    - Always think from a perspective of generalization and robustness when designing interfaces
    - Be open minded and understand from where the other person is coming during the discussions
+
+  "In the next six months, I want to focus on developing a few key skills that I’ve observed in a peer of mine. First, they have an incredible ability to be fully present during meetings. It sounds simple, but being fully engaged without distractions allows them to grasp the nuances of discussions and offer more thoughtful input. I’m working on improving that, to ensure I’m not just physically present but truly 'here' during critical conversations.
+
+Another skill I admire is how they consistently think from different points of view. They do this by really digging into the domain knowledge of the systems we work on. I’ve realized that gaining a deeper understanding of the systems involved helps me see problems through the eyes of various stakeholders, making my contributions more valuable.
+
+Additionally, they have this mindset of designing interfaces and solutions with generalization and robustness in mind. It’s something I’ve started adopting—thinking not just about solving the problem at hand, but also considering how flexible and resilient the solution will be in the future.
+
+Lastly, I’ve noticed how open-minded they are in discussions. They make a conscious effort to understand where the other person is coming from, even if they initially disagree. I’m trying to be more mindful of that, especially during tough discussions, because it really helps in building a collaborative atmosphere."
+
+
                                                                                                                                                                         
