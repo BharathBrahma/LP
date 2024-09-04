@@ -1,4 +1,16 @@
 # Have you ever had difficult/challenging situation in your previous job
+Perf Improvements
+- issue identified in L4 after L3 functional testing
+- Not meeting the SLA ( REST API and the Async rating )
+- As the lead on the team I was tasked with finding out the places that needs improvememnts
+  - Low hanging fruits
+  - Caching and cache-hit ratio, ttl etc
+  - Database query optimization
+  - Connection pooling to separate read and write requests
+  - Infrastructure sizing based on the above results in L4. Warming up the containers, and adding more the fleet with beefed up ones
+ 
+
+
 Situation:
 In a previous role, I was responsible for maintaining and optimizing a critical system that processed a large volume of data transactions. As our user base grew, I noticed that the system was starting to experience significant performance bottlenecks, particularly during peak usage times. This issue posed a threat to our ability to meet service level agreements (SLAs) and risked causing user dissatisfaction.
 
