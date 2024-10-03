@@ -1,4 +1,8 @@
-# Requirements Engineering
+# Important points
+
+- System should be highly available for search, view events/hotels/etc
+- System should have really low latency for searches < 500 ms ( low latency for driver matches, )
+- System should be highly consistent for booking events/hotels/flights/drivers ( No booking twice ) 
 
 # Capacity Estimation
 ```
