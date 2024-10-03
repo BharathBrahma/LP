@@ -1,9 +1,18 @@
 # Important points
 
-- System should be highly available for search, view events/hotels/etc
-- System should have really low latency for searches < 500 ms ( low latency for driver matches, )
-- System should be highly consistent for booking events/hotels/flights/drivers ( No booking twice )
-- System should be able to handle high throughput especially during peak hours / famous artists / celebrity problems
+## Availability
+System should be highly available for search, view events/hotels/etc
+## Low Latency
+System should have really low latency for searches < 500 ms ( low latency for driver matches, )
+## Consistency
+System should be highly consistent for booking events/hotels/flights/drivers ( No booking twice )
+- Usage of distributed locks with TTL using Redis which can be created with a unique identifier ( ex: DriverId, EventId etc. )
+## High Throughput
+System should be able to handle high throughput especially during peak hours / famous artists / celebrity problems
+- usage of Queue with Dynamic scaling capacity
+  - Use of Amazon SQS (fault tolerant, scalable, highly available ) which can shard based on locationId or any key
+  - when the queue grows too big then scale up the services
+  - DO NOT use FIFO Queue , use Priority Queue instead to address high priority requests like driver proximity, 
 
 # Capacity Estimation
 ```
