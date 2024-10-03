@@ -4,6 +4,12 @@
 System should be highly available for search, view events/hotels/etc
 ## Low Latency
 System should have really low latency for searches < 500 ms ( low latency for driver matches, )
+- Usage of Full-text indexes in the DB
+- Usage of Full-text Search Engine like Elastic Search
+  - Uses inverted idexes
+  - Use CDC to sync data between the relational Database
+  - Enable fuzzy search functionality with Elasticsearch, for handling typos
+  - Result caching and Edge Caching technique : Cache teh results geographically closer to the user using AWS Cloudfront
 ## Consistency
 System should be highly consistent for booking events/hotels/flights/drivers ( No booking twice )
 - Usage of distributed locks with TTL using Redis which can be created with a unique identifier ( ex: DriverId, EventId etc. )
