@@ -747,3 +747,113 @@ It became clear from my work that migration isn't simply "moving data from A to 
 My research became the **baseline blueprint** for all Fabric migration planning in our team. It provided clarity, helped uncover future engineering scenarios, enabled realistic semester planning, and ensured the wider team wouldn't be starting blindly.
 
 This reinforced my strength in taking an undefined, ambiguous space and turning it into structured, actionable clarity for the entire team.
+
+
+⭐ Compare Tool — The Project I Played a Key Role In (Leadership + Conflict + Technical Depth)
+
+Situation
+During our modernization of the global package tendering platform, multiple teams were transitioning from a legacy backend to a new async rating service. As we got deeper into integration testing, confidence dropped sharply — mismatches between the legacy and new service responses were causing friction between engineering teams, and every group suspected the other was at fault.
+
+There was no systematic way to compare deeply nested responses, quantify mismatches, or categorize what was breaking.
+
+This ambiguity was delaying the migration and creating conflict.
+
+Task
+I took the initiative to build a Compare Tool that would:
+
+run automated comparisons
+
+categorize mismatches
+
+help teams prioritize defects
+
+provide a UI to drill down into differences
+
+generate daily confidence reports
+
+dynamically configure rules for each region/country/customer
+
+My goal was to create a single source of truth that would replace debates with data.
+
+Action
+I played a key role across all dimensions:
+
+1. Designed the system end-to-end
+
+Backend logic
+
+Rule engine for threshold & config
+
+Low-level diffing algorithm for nested structures
+
+Materialized views + cron-based pipelines
+
+Intuitive UI for drilling into mismatches
+
+2. Navigated cross-team conflicts
+
+The UI team and the backend team were interpreting mismatches differently.
+Meetings were turning confrontational.
+
+To address this:
+
+I facilitated alignment meetings
+
+Created clear definitions of mismatch categories
+
+Proposed a rules-based approach that would satisfy both teams
+
+Structured mismatches into:
+
+structural differences
+
+numerical differences
+
+missing fields
+
+business rule mismatches
+
+This reduced friction and aligned teams.
+
+3. Iterated based on feedback
+
+I conducted several feedback loops:
+
+prioritized critical mismatches (pricing, surcharges)
+
+added filtering by region and service type
+
+built exportable reports for business review
+
+added confidence dashboards
+
+4. Evangelized adoption
+
+After initial success, I partnered with architects to onboard additional partner groups.
+
+I created:
+
+onboarding docs
+
+rule templates
+
+demo sessions for partner teams
+
+dashboards showing mismatch trends
+
+Result
+The Compare Tool became a central validation system that:
+
+increased team confidence from ~40% → over 100%
+
+reduced integration issues by 30%
+
+eliminated manual comparison efforts
+
+gave leadership daily visibility into risk
+
+accelerated the transition to the new backend
+
+reduced conflict between teams by grounding decisions in data
+
+This project is one I’m proud of because I not only delivered a complex technical solution, but I played a key role in driving alignment, reducing conflict, and enabling a major modernization effort to move forward with confidence.
