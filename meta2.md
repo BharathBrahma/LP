@@ -1,5 +1,90 @@
 # Final Scenarios
 
+# ⭐ "Project I Am Most Proud Of" — Error Repository (Meta-Caliber Version)
+
+## Situation
+
+When I joined the FedEx Ground Rating modernization effort, every domain was manually tracking and triaging rating failures in spreadsheets, logs, or ad-hoc scripts. There was no unified source of truth. This created delays in debugging, duplicated work across teams, and made RCA extremely inefficient — especially during peak events like Black Friday.
+
+There was no formal requirement to fix this, but I saw this gap was slowing down multiple teams and creating repeated customer issues.
+
+## Task
+
+I took ownership of designing and delivering a central Error Repository platform that could serve as a standardized, scalable, org-wide solution.
+
+My goal was to build something:
+
+- easy to ingest from multiple microservices
+- intuitive for users
+- scalable for future domains
+- configurable enough that each team could customize it without forking code
+
+This was not a roadmap item — it was something I proactively identified and drove.
+
+## Action
+
+I operated end-to-end:
+
+1. **Designed the architecture from scratch**
+   - Designed the DB schema aligning with architects
+   - Built the backend service (Spring Boot)
+   - Built the UI (Angular)
+   - Created ingestion APIs for orchestrators, workers, and downstream systems
+
+2. **Drove cross-functional alignment**
+   
+   Initially, teams pushed back — each domain had its own tools and workflows.
+   I set up listening sessions with sister teams to understand:
+   - what error types mattered to them
+   - what filters/slices they wanted
+   - how they envisioned triage workflows
+   - what pain points we could remove
+   
+   This turned the project from "my idea" → "org-backed initiative".
+
+3. **Turned custom requirements into configuration**
+   
+   Instead of writing custom logic for every team, I introduced a config layer so each org could:
+   - define their error categories
+   - set retention rules
+   - control custom fields
+   - define their own views
+   
+   This made onboarding new teams extremely lightweight.
+
+4. **Iterated using feedback loops**
+   
+   I released the first version quickly, collected feedback through office hours and demos, and then iterated:
+   - added faceted search
+   - built filtering by shipper, workflow, task
+   - added severity scoring
+   - introduced a "download RCA bundle" feature
+
+5. **Partnered with architects to scale adoption**
+   
+   Once 2 teams were onboarded, I created a reusable "Error Repo Onboarding Guide", and architects helped me evangelize it org-wide.
+
+## Result
+
+The Error Repository became a standardized platform across the organization:
+
+- 8+ domains onboarded within months
+- Reduced error triage time by ~40%
+- Cut duplicate investigations by ~30%
+- Provided a single debugging surface for dozens of microservices
+- Enabled faster RCA during peak events (Black Friday/Cyber Monday)
+- Became the backbone for reliability dashboards used by leadership
+
+But personally, I'm proud because:
+
+- I saw a cross-team problem that nobody formally owned
+- I built a full-stack solution from scratch
+- I scaled it across the org through collaboration, empathy, and product thinking
+- I created something reusable, maintainable, and future-proof
+
+This project represents my approach as a senior engineer — seeing around corners, taking initiative, and building solutions that elevate the entire organization.
+
+
 ## Error Repository – Conflict + Alignment (3‑Minute STAR Version)
 
 ### **Situation**
