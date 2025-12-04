@@ -834,111 +834,145 @@ My research became the **baseline blueprint** for all Fabric migration planning 
 This reinforced my strength in taking an undefined, ambiguous space and turning it into structured, actionable clarity for the entire team.
 
 
-⭐ Compare Tool — The Project I Played a Key Role In (Leadership + Conflict + Technical Depth)
+# ⭐ Compare Tool — The Project I Played a Key Role In
 
-Situation
-During our modernization of the global package tendering platform, multiple teams were transitioning from a legacy backend to a new async rating service. As we got deeper into integration testing, confidence dropped sharply — mismatches between the legacy and new service responses were causing friction between engineering teams, and every group suspected the other was at fault.
+(Leadership + Conflict Resolution + Ambiguity Handling + Technical Depth)
 
-There was no systematic way to compare deeply nested responses, quantify mismatches, or categorize what was breaking.
+## Situation
 
-This ambiguity was delaying the migration and creating conflict.
+During our modernization of the global package tendering platform, multiple teams were transitioning from a legacy rating backend to a new async rating service. As integration progressed, confidence dropped sharply — the new API and legacy API were producing mismatched responses, and nobody knew whether the issue was in business logic, data hydration, or the new implementation.
 
-Task
-I took the initiative to build a Compare Tool that would:
+To make matters worse:
 
-run automated comparisons
+The legacy and new API structures were completely different.
 
-categorize mismatches
+Original product owners who designed the legacy behavior had left the company.
 
-help teams prioritize defects
+Documentation was missing or outdated.
 
-provide a UI to drill down into differences
+Legacy engineers felt supporting us was an overhead, since they lacked clarity themselves and had to dig through old code or chase their PMs for answers.
 
-generate daily confidence reports
+Meetings were becoming confrontational because every team interpreted mismatches differently.
 
-dynamically configure rules for each region/country/customer
+This growing ambiguity caused delivery delays and friction between UI, backend, QA, and architecture teams.
 
-My goal was to create a single source of truth that would replace debates with data.
+## Task
 
-Action
-I played a key role across all dimensions:
+To break the cycle of ambiguity and debate, I took the initiative to build a Compare Tool that would become the single source of truth:
 
-1. Designed the system end-to-end
+- Run automated comparisons between legacy and new API
+- Categorize mismatches (structural, numeric, business-rules)
+- Drill down into nested differences via an intuitive UI
+- Provide daily confidence reports to leadership
+- Support configurable rules per region/service/country
+- Replace arguments with data-driven clarity
 
-Backend logic
+But the primary hidden task was larger: unblocking the mapping ambiguity between legacy → new API so that the comparison was apples-to-apples.
 
-Rule engine for threshold & config
+## Action
 
-Low-level diffing algorithm for nested structures
+1. I led the end-to-end technical design
 
-Materialized views + cron-based pipelines
+   - Designed the backend logic and diff engine
+   - Created a sophisticated rules engine for configurable tolerance thresholds
+   - Built a low-level nested comparison algorithm
+   - Added Redis Streams for async high-volume processing
+   - Implemented rate limiting
+   - Added cron-based pipelines and materialized views for nightly dashboards
+   - Built an intuitive UI for drill-down analysis
 
-Intuitive UI for drilling into mismatches
+   This made the tool technically robust — but the real challenge was the cross-team conflict around mappings.
 
-2. Navigated cross-team conflicts
+2. I navigated severe mapping ambiguity and cross-team friction
 
-The UI team and the backend team were interpreting mismatches differently.
-Meetings were turning confrontational.
+   The legacy team resisted our requests because:
+   - They didn’t believe comparison was valid due to structural differences
+   - They felt our questions were “extra work”
+   - They had no documentation and were unsure themselves
+   - Their PMs/POs had left, making them anxious about giving wrong answers
 
-To address this:
+   Initially, every mapping question became a debate or a blocker.
 
-I facilitated alignment meetings
+3. I mentored my own team to stay calm and methodical
 
-Created clear definitions of mismatch categories
+   I coached them on:
+   - How to break down fields into fine-grained components
+   - How to isolate technical vs business ambiguity
+   - How to engage a reluctant team diplomatically
+   - How to document every assumption clearly
 
-Proposed a rules-based approach that would satisfy both teams
+	But soon I recognized that the root cause wasn’t technical — it was missing business ownership.
 
-Structured mismatches into:
+4. I strategically escalated to management and secured a dedicated Product Owner
 
-structural differences
+	I made a clear, logical case to my manager and senior leadership:
 
-numerical differences
+	“Mapping is not a technical task. We need a PO who can partner with business ops and the legacy PM organization. This must be a first-class sprint item with priority.”
 
-missing fields
+	Leadership agreed, and we were assigned a Product Owner exclusively for the migration effort.
 
-business rule mismatches
+	This changed everything.
 
-This reduced friction and aligned teams.
+5. I created a two-stream collaboration model
 
-3. Iterated based on feedback
+	Stream A — Technical (owned by me):
 
-I conducted several feedback loops:
+	- Broke each mapping into precise, engineering-ready rules
+	- Categorized ambiguous fields
+	- Showed exactly where legacy → new response diverged
+	- Built prototype mapping logic to prove what was failing
 
-prioritized critical mismatches (pricing, surcharges)
+	Stream B — Business (owned by the new PO):
 
-added filtering by region and service type
+	- Dug through old requirements
+	- Reached out to business operations
+	- Contacted legacy managers/PMs for clarification
+	- Validated business rules and missing domain logic
 
-built exportable reports for business review
+	This gave the legacy team clarity and removed the burden of rediscovery from them.
 
-added confidence dashboards
+	They no longer saw our requests as arbitrary; they saw clearly defined stories in the backlog with the PO driving business clarity.
 
-4. Evangelized adoption
+	The friction dropped dramatically.
 
-After initial success, I partnered with architects to onboard additional partner groups.
+6. I resolved misalignment between UI, backend, and partner teams
 
-I created:
+	I facilitated alignment meetings that redefined mismatch categories:
+	- Structural differences
+	- Numeric tolerance differences
+	- Missing fields
+	- Business rule mismatches
 
-onboarding docs
+	This removed interpretation-based arguments and grounded conversations in objective definitions.
 
-rule templates
+7. I evangelized adoption
 
-demo sessions for partner teams
+	After proving success:
+	- I onboarded additional teams
+	- Created demo sessions, docs, and rule templates
+	- Provided dashboards showing mismatch trends
 
-dashboards showing mismatch trends
+	This made the Compare Tool the official validation system.
 
-Result
-The Compare Tool became a central validation system that:
+## Result
 
-increased team confidence from ~40% → over 100%
+### Quantifiable impact
 
-reduced integration issues by 30%
+- ~30% reduction in false mismatches
+- ~25% faster compare cycles
+- Team confidence increased from ~40% → 100%+
+- Integration issues reduced significantly
+- Migration timelines accelerated
+- Cross-team conflict dropped as decisions became data-driven
 
-eliminated manual comparison efforts
+### Organizational impact
 
-gave leadership daily visibility into risk
+- The Compare Tool became the authoritative validator for the modernization program
+- Leadership used its dashboards to assess launch readiness
+- It eliminated manual comparison work
+- It built trust between engineering groups who were previously in conflict
 
-accelerated the transition to the new backend
+### Personal leadership impact
 
-reduced conflict between teams by grounding decisions in data
+This is one of my proudest contributions because I didn’t just build a complex technical system — I broke ambiguity, resolved cross-team conflict, secured business ownership, mentored my team, and created a collaboration model that unlocked the entire program.
 
-This project is one I’m proud of because I not only delivered a complex technical solution, but I played a key role in driving alignment, reducing conflict, and enabling a major modernization effort to move forward with confidence.
